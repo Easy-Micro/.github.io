@@ -8,6 +8,7 @@ font-size: large;
 color: rgb(91, 116, 116);
 background-color:#fff;
 text-align: center;
+color:#707070;
 }
 
 h1 {
@@ -32,17 +33,11 @@ img {
 }
 
 
-/* style par défaut des liens hypertextes de tout le site */
+/* style par défaut des liens hypertexte de tout le site */
 
-a {
-    color:#000 ;
-    text-decoration: none;
-}
+a { color:#000088; text-decoration: underline; text-transform: none; }
+a:hover { color:#ff0000; text-decoration: underline; text-transform: none; }
 
-a:hover {
-    color:rgb(174, 243, 174) ;
-    text-decoration:none;
-}
 
 /*----------------------------------------------------------------------*/
 
@@ -73,7 +68,7 @@ margin-right: auto;
         }
 
 #sousmenu a {
-    margin-left:50px;
+    margin-left:10px;
 }
 
 /*----------------------------------------------------------------------*/
