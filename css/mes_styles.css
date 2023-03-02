@@ -57,45 +57,11 @@ margin-right: auto;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#baniere {
-border-top: 1px solid #c0c0c0;
-background-image: url("../images/photoouibike.webp");
-background-repeat: no-repeat;
-background-position: top middle;
-background-size: cover;
-height: 500px;
-text-align: center;
-font-size: 2.5em;
-color: #fff;
-}
-
-
-
 /* divers class */
 #menuprincipal img {
     max-width: 130px; height: auto;
     vertical-align:middle;
 }
-
-#slogan {
-   margin-top: 10%; 
-}
-
-#baniere input {
-    width:80%; height: 52px;
-    border-radius:35px;
-    color:#c0c0c0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.4em;
-}
-
-#louer {
-    color: gray;
-    font-family:mistral;
-    font-size: 1.8em;
-    margin-top: 9%;
-}
-
 
 #burger {
     display:none;
