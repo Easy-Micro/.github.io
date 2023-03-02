@@ -1,0 +1,152 @@
+/* Feuille de style - Correspond à la charte graphique du site */
+
+/* Style par défaut */
+
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+color: black;
+background-color: lightgray;
+text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    color: black;
+}
+
+/* Style sur balise */
+
+/*input text {
+    text-align: left;
+    padding: 30px;
+    width: 80%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Style par défaut des liens hypertextes de tout le site */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: mediumseagreen;
+    text-decoration: none;
+}
+
+
+/*----------------------------------------------------------------------------------------*/
+/* classe de style sur conteneur */
+
+#principal{
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#menu{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: black;
+    font-size: small;
+    background-color: white;
+    padding: 15px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+#baniere{
+    
+    font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif; color: white;
+    font-size: 50px;
+    text-align: center;
+    background-image: url("../images/image1.webp");
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div#etapes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.etape1 {
+    width: 35%;
+    /*font-size: 1em; */
+    /*margin-top: 35px;*/
+}
+
+/*
+background-color: rgb(0, 255, 204); 
+    padding: 15px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto; */ 
+
+    /* divers class */
+
+.etape.img {
+    width: 100px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+#menu img{
+max-width: 130px; height: auto;
+vertical-align: middle;
+}
+
+#bigeasyflex {
+display: flex;    
+flex-direction: row;
+
+}
+
+
+/* responsive (pour tous les écrans en dessous de 800px les images se réduisent 
+cf : pour les menus burgers aussi */
+
+#burger{
+    display: none;
+    font-size: 1.5em;
+    }
+
+
+@media screen and (max-width:800px) {
+
+    #slogan {
+    font-size: 0.7em;
+    }
+    
+    #louer {
+        font-size: 0.8em;
+        margin-top: 15px;
+    }
+    
+    #sousmenu {
+       display: none;
+    
+    }
+    #burger {
+        display: inline;
+
+    }
+    
+    #slogan {
+        font-size: 0.7em;
+    }
+
+}
+
