@@ -48,46 +48,21 @@ margin-left: auto;
 margin-right: auto;
 }
 
-#menuprincipal {
-    background-color: #fff;
-    height: 50px;
-    text-align: left;
-    font-size: smaller;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+#burger {
+           display:none;
+            }
 
 /* divers class */
-#menuprincipal img {
-    max-width: 130px; height: auto;
-    vertical-align:middle;
-}
 
-#burger {
-    display:none;
-    font-size: 1.5em;
-        }
-
-#sousmenu a {
-    margin-left:10px;
-}
 
 /*----------------------------------------------------------------------*/
 /* smathphone */
  @media screen and (max-width:800px) {
 
-            #louer {
-                font-size: 1em;
-                margin-top: 9%;
-            }
-
             #burger {
                 display:inline;
                 margin-left: 25px;
             }
-            #slogan {
-                font-size: 0.7em;
-             }
-
              #sousmenu {
                 display:none;
              }
