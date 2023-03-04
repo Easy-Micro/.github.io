@@ -46,6 +46,15 @@ footer {
     margin-bottom:20px;
 }
 
+#easyol {
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    width:450px;
+    border: solid 1px grey;
+    border-radius:25px;
+}
+
 
 /* style par défaut des liens hypertexte de tout le site */
 
