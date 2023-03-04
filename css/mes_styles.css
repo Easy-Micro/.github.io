@@ -37,6 +37,15 @@ nav {
     font-size:medium;
 }
 
+footer {
+    text-align:center; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:100%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
 
 /* style par défaut des liens hypertexte de tout le site */
 
@@ -95,4 +104,3 @@ margin-right: auto;
             margin-bottom: 0px;
             margin-top: 20px;
         }
-        
