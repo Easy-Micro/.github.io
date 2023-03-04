@@ -46,17 +46,6 @@ footer {
     margin-bottom:20px;
 }
 
-#liste_formation {
-    text-align:left;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:15px;
-    width:450px;
-    border:solid 1px grey;
-    border-radius:25px;
-}
-
-
 /* style par défaut des liens hypertexte de tout le site */
 
 a { color:#c0c0c0; text-decoration:none; text-transform:none; }
@@ -71,29 +60,23 @@ margin-left:auto;
 margin-right:auto;
 }
 
-/* #burger {
-           display:none;
-            } */
-
 /* divers class */
 
-
-/*----------------------------------------------------------------------*/
-/* smathphone */
- /* @media screen and (max-width:800px) {
-
-            #burger {
-                display:inline;
-                margin-left:25px;
-            }
-             #sousmenu {
-                display:none;
-             }
-
-        } */
+#liste_formation {
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+    width:450px;
+    border:solid 1px grey;
+    border-radius:25px;
+}
 
 
-/*----------------------------------------------------------------------*/
+#liste_formation h2 {
+    margin-top:15px;
+}
+
 /* Les 4 div en bas de la page*/
 
         #flex-conteneur{
