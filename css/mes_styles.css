@@ -3,11 +3,11 @@
 /* style par défaut */
 
 body {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
 font-size:small;
-color: rgb(91, 116, 116);
+color:rgb(91, 116, 116);
 background-color:#fff;
-text-align: center;
+text-align:center;
 color:#707070;
 }
 
@@ -19,21 +19,21 @@ h1 {
 
 /* style sur balise */
 h2 {
-    font-size: 1.5em;
-    font-weight: bolder;
-    color: gray;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 0px;
+    font-size:1.5em;
+    font-weight:bolder;
+    color:gray;
+    text-align:center;
+    margin-bottom:20px;
+    margin-top:0px;
 }
 
 img {
-    margin-bottom: 0px;
+    margin-bottom:0px;
     border:none;
 }
 
 nav {
-    margin-bottom: 25px;
+    margin-bottom:25px;
     font-size:medium;
 }
 
@@ -52,23 +52,23 @@ footer {
     margin-right:auto;
     margin-top:15px;
     width:450px;
-    border: solid 1px grey;
+    border:solid 1px grey;
     border-radius:25px;
 }
 
 
 /* style par défaut des liens hypertexte de tout le site */
 
-a { color:#c0c0c0; text-decoration: none; text-transform: none; }
-a:hover { color:#000; text-decoration: underline; text-transform: none; }
+a { color:#c0c0c0; text-decoration:none; text-transform:none; }
+a:hover { color:#000; text-decoration:underline; text-transform:none; }
 
 /*----------------------------------------------------------------------*/
 
 /* classe de style sur conteneur */
 #principal {
 width:75%;
-margin-left: auto;
-margin-right: auto;
+margin-left:auto;
+margin-right:auto;
 }
 
 /* #burger {
@@ -84,7 +84,7 @@ margin-right: auto;
 
             #burger {
                 display:inline;
-                margin-left: 25px;
+                margin-left:25px;
             }
              #sousmenu {
                 display:none;
@@ -97,20 +97,20 @@ margin-right: auto;
 /* Les 4 div en bas de la page*/
 
         #flex-conteneur{
-            display: flex;
-            flex-direction: row ;
-            flex-wrap: wrap; /* retour à la ligne wrap ou nowrap */
-            justify-content: space-around; /* flex-start ou flex-end ou space-between */
-            margin-top: 50px;
+            display:flex;
+            flex-direction:row ;
+            flex-wrap:wrap; /* retour à la ligne wrap ou nowrap */
+            justify-content:space-around; /* flex-start ou flex-end ou space-between */
+            margin-top:50px;
         }
         
         #flex-conteneur div {
             width:250px;
-            margin-bottom: 10px;
+            margin-bottom:10px;
         }
 
         #flex-conteneur img {
             width:100px;
-            margin-bottom: 0px;
-            margin-top: 20px;
+            margin-bottom:0px;
+            margin-top:20px;
         }
