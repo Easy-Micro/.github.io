@@ -52,16 +52,16 @@ margin-left: auto;
 margin-right: auto;
 }
 
-#burger {
+/* #burger {
            display:none;
-            }
+            } */
 
 /* divers class */
 
 
 /*----------------------------------------------------------------------*/
 /* smathphone */
- @media screen and (max-width:800px) {
+ /* @media screen and (max-width:800px) {
 
             #burger {
                 display:inline;
@@ -71,7 +71,7 @@ margin-right: auto;
                 display:none;
              }
 
-        }
+        } */
 
 
 /*----------------------------------------------------------------------*/
