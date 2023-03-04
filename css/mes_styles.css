@@ -40,9 +40,8 @@ nav {
 
 /* style par défaut des liens hypertexte de tout le site */
 
-a { color:#c0c0c0; text-decoration: underline; text-transform: none; }
+a { color:#c0c0c0; text-decoration: none; text-transform: none; }
 a:hover { color:#000; text-decoration: underline; text-transform: none; }
-
 
 /*----------------------------------------------------------------------*/
 
